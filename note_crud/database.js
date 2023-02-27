@@ -13,7 +13,7 @@ app.use(express.json());
 const uri = "mongodb+srv://example:ANflqWAJo3uqPco6@cluster0.spurzgo.mongodb.net/?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 // }
-// connect korar jnno run function likhte hobe
+// zokhn database connect korbo tokhn run function likhte hobe
 async function run(){
     // insert one
     try{
