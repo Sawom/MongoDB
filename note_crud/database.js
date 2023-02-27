@@ -90,5 +90,5 @@ app.get('/', (req,res)=>{
 app.listen(port, ()=>{
     console.log(`listen from port ${port}`);
 })
-// add must
+// add must. app listen korar somoy lagbe na. eta lagbe zokhn run function likhbo tokhn
 run().catch( err =>console.log(err));
