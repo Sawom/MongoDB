@@ -18,7 +18,7 @@ async function run(){
     // insert one
     try{
         const dbCollection = client.db("exampleDatabase").collection("data");
-        // read data from database. home e ekhane read kortechi client site theke
+        // read data from database and also show in /browser. home e ekhane read kortechi client site theke
         app.get('/data', async(req,res)=>{
             const query = {};
             const cursor = dbCollection.find(query);
