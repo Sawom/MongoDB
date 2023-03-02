@@ -15,7 +15,7 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 // }
 // zokhn database connect korbo tokhn run function likhte hobe
 async function run(){
-    // insert one
+   
     try{
         const dbCollection = client.db("exampleDatabase").collection("data");
         // read data from database and also show in /browser. home e ekhane read kortechi client site theke
