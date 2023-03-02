@@ -27,7 +27,7 @@ async function run(){
         } )
 
 
-        // ekhane '/data' mane route name r ekhane data k post kortechi.
+        // ekhane '/data' mane route name r ekhane data k post kortechi.data insert
         // client er fetch r ekhane post er por '/add' route same hoite hoy.
         app.post('/data', async (req, res) =>{
             // data k nicchi body te. body client theke ashche
