@@ -22,6 +22,7 @@ const Home = () => {
         })
             .then(res => res.json())
             .then( data => {
+                // after delete update info
                 if(data.deletedCount > 0) {
                 alert('deleted successfully'); // data delete hoile msg opore dibe
                 const remainingUsers = users.filter(user => user._id !== id );
