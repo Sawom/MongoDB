@@ -22,8 +22,8 @@ const AddData = () => {
                 event.target.reset();
             }
         })
-        // end
-    }
+       
+    }  // end
 
     // data input from form
     const handleInputBlur = event =>{
