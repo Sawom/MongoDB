@@ -41,6 +41,7 @@ const AddData = () => {
             <form onSubmit={handleAddUser} >
                 <input onChange={handleInputBlur} type="text" name='name' placeholder='name' /> <br />
                 <input onChange={handleInputBlur} type="text" name='address' placeholder='address' /> <br />
+                {/* defaultValue={user.email || ''} eta likhle zodi user login thake tokhn email ta show kore input box e kintu database e save korbe na. onChange dile database e save hoy  */}
                 <input onChange={handleInputBlur} type="email" name='email' placeholder='email' /> <br /> <br />
                 <button type="submit" >add user</button>
             </form>
