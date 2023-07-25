@@ -1,3 +1,3 @@
 ## MongoDB
 npm init -y <br>
-npm install express cors mongodb
+npm i express cors dotenv mongodb
